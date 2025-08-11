@@ -11,13 +11,13 @@ MatchPoint convierte **actividades** y **tareas del hogar** en **puntos** y **re
 
 ---
 
-## 🚀 Estado del proyecto
+## Estado del proyecto
 MVP en desarrollo (proyecto personal / aprendizaje).  
 Metodología ágil con tablero en Asana y sprints de 2 semanas.
 
 ---
 
-## ✨ Funcionalidades (MVP)
+## Funcionalidades (MVP)
 - [x] Definición de producto y brief  
 - [ ] Registro rápido de actividad/tarea + suma de puntos  
 - [ ] Objetivo semanal + barra de progreso  
@@ -35,7 +35,7 @@ Metodología ágil con tablero en Asana y sprints de 2 semanas.
 
 ---
 
-## 🧱 Stack
+## Stack
 - **Frontend:** HTML/CSS/JS (PWA). *(Más adelante: Flutter o React/Next)*
 - **Backend:** Python **FastAPI**  
 - **DB:** SQLite (MVP) → (futuro: Postgres/Firebase)  
@@ -97,7 +97,7 @@ Si sirves estáticos desde FastAPI, monta la carpeta `/frontend/static`.
 
 ---
 
-## 🔐 Variables de entorno
+## Variables de entorno
 Crea un `.env` desde el ejemplo:
 ```
 APP_ENV=dev
@@ -108,7 +108,7 @@ Carga las variables en FastAPI (por ejemplo, `python-dotenv`).
 
 ---
 
-## 📦 Despliegue en Render (sencillo)
+## Despliegue en Render (sencillo)
 **Web Service (Python)**
 - **Build Command**
   ```bash
@@ -124,7 +124,7 @@ Carga las variables en FastAPI (por ejemplo, `python-dotenv`).
 
 ---
 
-## 📱 PWA (instalable)
+## PWA (instalable)
 Incluye estos archivos en `frontend/static/`:
 
 **`manifest.json`**
@@ -168,20 +168,20 @@ if ('serviceWorker' in navigator) {
 
 ---
 
-## 🧪 Tests (placeholder)
+## Tests (placeholder)
 - Backend: `pytest`  
 - Lint/format: `flake8`, `black` (opcional: `pre-commit`)
 
 ---
 
-## 🧩 Modelado (UML)
+## Modelado (UML)
 - **Clases:** Usuario, Pareja, Tarea, Recompensa, PuntoTransaccion, etc.  
 - **Secuencias:** Registrar tarea → sumar puntos → recalcular ranking → respuesta.  
 Guarda los `.puml`/`.png` en `docs/UML/`.
 
 ---
 
-## 🗺️ Roadmap corto (Sprints)
+## Roadmap corto (Sprints)
 **Sprint 1**
 - Home (puntos + objetivo y progreso)
 - Registro de actividad/tarea
@@ -200,17 +200,17 @@ Guarda los `.puml`/`.png` en `docs/UML/`.
 
 ---
 
-## 🤝 Contribuir
+## Contribuir
 Proyecto personal de aprendizaje. PRs bienvenidos cuando esté estable.  
 Estandariza con `black` + `flake8` (ver `.pre-commit-config.yaml` si lo agregas).
 
 ---
 
-## 📄 Licencia
+## Licencia
 MIT (o la que prefieras). Añade un `LICENSE` si haces público el repositorio.
 
 ---
 
-## 📬 Contacto
-Creador: **Joaquín**  
+## Contacto
+Creador: **Joaquín Serra**  
 Descripción/brief y documentos en `docs/`.
